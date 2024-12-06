@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marc para Iniciantes</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Marc21 para Iniciantes</h1>
+        <p>Ferramenta elaborada por Michel Borges, Bacharel em Biblioteconomia e Mestrando em Ciência da Informação pela Universidade Federal Fluminense.</p>
+    </header>
+    <main class="main-content">
+        <div class="container">
+            <label for="tag">Campo:</label></p>
+            <input type="text" id="tag" />
+
+            <label for="ind1">Primeiro indicador :</label></p>
+            <input type="text" id="ind1" />
+
+            <label for="ind2">Segundo indicador:</label></p>
+            <input type="text" id="ind2" />
+
+            <label for="subfields">Subcampos:</label></p>
+            <input type="text" id="subfields" />
+
+            <button id="fillButton">Confirmar</button>
+            <button id="displayInfoButton">Ajuda</button>
+
+            <div id="infoText"></div>
+        </div>
+
+        <div class="help-section">
+            <h2>Como Utilizar a Ferramenta</h2>
+            <p>
+                Esta ferramenta permite criar registros no formato MARC21 de forma simples. 
+                Siga os passos abaixo:
+            </p>
+            <ol>
+                <li>Insira o campo desejado no campo "Campo".</li>
+                <li>Preencha os indicadores nos campos correspondentes (Primeiro e Segundo).</li>
+                <li>Adicione os subcampos conforme necessário.</li>
+                <li>Clique no botão "Confirmar" para gerar o código MARC21.</li>
+                <li>Para obter ajuda sobre um campo específico, insira a tag e clique em "Ajuda" para ser redirecionado à página da PUC-rio.</li>
+	  <li>Tags úteis: "Home Page", "Exemplo", "Tabela Geográfica", "Tabela Países", "Tabela Idiomas", "Tabela Artigos Iniciais", "Tabela Código de Relação Com a Obra".</li>
+	  <li>Ao final da atividade copie o código Marc21 construído e cole na área específica do catálogo on-line.</li>
+            </ol>
+        </div>
+    </main>
+    <footer class="footer">
+        <p>Sem fins lucrativos.</p>
+    </footer>
+    <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Marc21",
+    "version": "1.0",
+    "description": "Extensão Marc21",
+    "permissions": ["activeTab"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "icon.png"
+    }
+}
+
+
+
